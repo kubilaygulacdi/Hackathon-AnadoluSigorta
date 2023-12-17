@@ -47,6 +47,8 @@ Contributors
 
 ## Şikayet & Öneri Sistemi Uygulama Görüntüsü
 
+Projemizde, Anadolu Sigorta'nın var olan uygulama tasarımlarına sadık kaldık, böylece marka tutarlılığını koruyarak kullanıcılara tanıdık bir deneyim sunduk. Bu yaklaşım, hem marka kimliğini güçlendirmeyi hem de kullanıcı memnuniyetini artırmayı hedefliyor.
+
 <img src="https://github.com/kubilaygulacdi/Hackathon-AnadoluSigorta/assets/104395137/191c020f-b26d-4a43-8e1b-b295af6e19c0" width="250" height="500">
 
 ## ASbot Demo
