@@ -32,9 +32,6 @@ Contributors
 
 **Template**: Bu, kullanıcının sorularını ve temel alınan metinleri bir araya getirerek soru-cevap sisteminin çalışmasını sağlayan bir format şablonudur.
 
-
-## Asbot - Şikayet & Öneri Backend Özellikler
-
 ## Asbot - Şikayet & Öneri Mobil Özellikler
 
 **HTTP GET İsteği**:
