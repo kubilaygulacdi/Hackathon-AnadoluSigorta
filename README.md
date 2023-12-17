@@ -15,6 +15,24 @@ Contributors
 - **Backend**: Python, MongoDB, ChromaDB, Flask
 
 ## Asbot - Şikayet & Öneri Gen AI Özellikler
+
+**ChatOpenAI**: OpenAI'nin GPT-3.5 modelini kullanarak sohbet asistanı oluşturmak için ChatOpenAI sınıfı kullanılır.
+
+**OpenAIEmbeddings**: Metinleri gömülü vektörler (embeddings) haline getirmek için OpenAIEmbeddings kullanılır. Bu, metinlerin semantik analizini ve karşılaştırılmasını sağlar.
+
+**TextLoader**: `TextLoader`, belirli bir dosyadan metinleri yüklemek için kullanılır. Bu, sohbet asistanının temel alacağı kaynak metinleri sağlar.
+
+**RecursiveCharacterTextSplitter**: Bu araç, büyük metinleri daha küçük parçalara ayırır. Bu, büyük metinlerin işlenmesini kolaylaştırır ve verimliliği artırır.
+
+**VectorStore**: `ChromaDB`, metin parçalarını vektörler haline getirip bir depoda saklar. Bu, hızlı ve etkili bir şekilde metin araması yapılmasını sağlar.
+
+**RetrievalQA**: `RetrievalQA`, kullanıcıların sorularına yanıt vermek için belirlenen metinler içinden en uygun bilgiyi alır.
+
+**query**: Bu fonksiyon, kullanıcıdan alınan soruları işleyerek uygun yanıtlar üretir. Bu süreçte PromptTemplate ve RetrievalQA kullanılır.
+
+**Template**: Bu, kullanıcının sorularını ve temel alınan metinleri bir araya getirerek soru-cevap sisteminin çalışmasını sağlayan bir format şablonudur.
+
+
 ## Asbot - Şikayet & Öneri Backend Özellikler
 
 ## Asbot - Şikayet & Öneri Mobil Özellikler
