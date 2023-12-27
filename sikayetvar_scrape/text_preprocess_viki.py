@@ -13,6 +13,7 @@ def remove_punctions(text):
     text = re.sub(r'[^\w\s]', ' ', text)  # kelime ve boşluk karakterleri dışındakileri kaldırır
     text = re.sub(r"\s+", " ", text)  # fazla boşlukları temizler
     return text.strip()
+    
 def remove_numbers(text):
     return re.sub(r'\d+', '', text)
 
