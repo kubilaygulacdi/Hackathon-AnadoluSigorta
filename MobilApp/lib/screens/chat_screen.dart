@@ -24,38 +24,6 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _isLoading = false;
   bool _showDefaultMessage = true;
 
-
-  @override
-  /*void initState() {
-    super.initState();
-    // Varsayılan başlangıç mesajını ekleyin
-    _addDefaultMessage();
-  }*/
-
- /* void _addDefaultMessage() {
-      _messages.insert(0, {
-        'text': RichText(
-          text: TextSpan(
-            style: TextStyle(fontSize: 16.0, color: Colors.black),
-            children: <TextSpan>[
-              TextSpan(text: 'Size nasıl yardımcı olabilirim? '),
-              TextSpan(
-                text: 'Öneri ve şikayetleriniz için buraya tıklayın.',
-                style: TextStyle(color: Colors.blue),
-                recognizer: TapGestureRecognizer()..onTap = () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => ComplaintPage(),
-                  ));
-                },
-              ),
-            ],
-          ),
-        ),
-        'sender': 'bot',
-        'isRichText': true, // RichText olduğunu belirten bir flag ekleyin
-      });
-  }*/
-
   void _addDefaultMessage() {
     final defaultTextWidget = RichText(
       text: TextSpan(
